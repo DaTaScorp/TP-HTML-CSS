@@ -1,0 +1,27 @@
+body{
+    background-color: bisque;
+    font-family: sans-serif;
+
+    
+}
+.container{
+    margin: 20px auto;
+    background-color: azure;
+    border:solid 1px black ;
+  
+}
+
+
+@media  screen and (min-width:800px){
+    .bloc2{
+     
+        background: purple;
+    }
+
+}
+@media  screen and (orientation:landscape){
+    .bloc6{
+        width: landscape;
+        background: purple;
+    }
+}

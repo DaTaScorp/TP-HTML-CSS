@@ -1,0 +1,35 @@
+
+body {
+    display: grid;
+    grid-template: 20px;
+    background-color: beige;
+
+   
+}
+h1{
+   color: brown;
+   text-align: center;
+}
+
+h2,h3 {
+    color: brown;
+}
+ 
+ nav ul{
+    display: grid;
+    grid-template-columns: repeat( 5,1fr);
+    place-items: center;
+    
+}
+  
+ #container{
+    display: grid;
+    grid-template-columns: 1fr 3fr 1fr;
+   
+ }
+
+ 
+
+   
+
+

@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Formulaire</title>
+</head>
+
+<body>
+  <form method="post">
+    <h1 style="text-align: center;">Formulaires</h1>
+    <fieldset>
+      <legend>Infos personnelles</legend>
+      <label for="prenom">Prénom :</label>
+      <input type="text" name="prenom" placeholder="Marque ton prénom" maxlength="20" id="prenom"> <br>
+
+      <label for="prenom">Nom</label>
+      <input type="text" name="nom" placeholder="Marque ton nom" maxlength="20" id="nom"> <br>
+
+      <label for="mail">Email :</label>
+      <input type="text" name="Email" placeholder="Ecris ton mail" id="mail"> <br>
+
+      <label for="phone">Téléphone :</label>
+      <input type="text" name="phone" placeholder="Ecris ton numéro" maxlength="20" id="phone"> <br>
+
+      <label for="password">Mot de passe :</label>
+      <input type="password" placeholder="Mot de passe" minlength="80" maxlength="30" id="password"> <br>
+
+      <label for="age">Age :</label>
+      <input type="number" placeholder="Ton age" id="age"> <br>
+
+      <label for="commentaire">Laisser un commentaire :</label> <br>
+      <textarea name="commentaire" id="commentaire" placeholder="Raconte moi une histoire passionante !"
+        style="height: 10cm; width: 70%;"></textarea> <br>
+
+      <label for="date">Date de mon commentaire</label>
+      <input type="date" id="date" name="date"> <br>
+
+      <label for="file">Mes photos</label>
+      <input type="file" accept="png .jpg .gif"> <br>
+    </fieldset>
+    <fieldset>
+      <legend>Vous préferez</legend>
+      <input type="checkbox" id="checkbox1" checked>
+      <label for="checkbox1">HTML</label> <br>
+
+      <input type="checkbox" id="checkbox2">
+      <label for="checkbox2">CSS</label><br>
+
+      <input type="checkbox" id="checkbox3">
+      <label for="checkbox3">Javascript</label> <br>
+
+      <input type="checkbox" id="checkbox4">
+      <label for="checkbox4">Aucun</label>
+    </fieldset>
+    <fieldset>
+      <legend>Vous vous levez</legend>
+
+      <input type="radio" id="radio1" checked>
+      <label for="radio1">Le matin</label> <br>
+
+      <input type="radio" id="radio2">
+      <label for="radio2">Le midi</label> <br>
+
+      <input type="radio" id="radio3">
+      <label for="radio3">Le soir</label> <br>
+
+      <input type="radio" id="radio4">
+      <label for="radio4">En retard !</label> <br>
+    </fieldset>
+
+    <fieldset>
+      <legend>Fin du formulaire</legend>
+      <label for="liste">Vous en avez assez</label>
+
+      <select name="liste" id="liste">
+
+        <optgroup label="Team pas encore">
+          <option value="option1">J'en veux plus</option>
+          <option value="option2">C'est super</option>
+        </optgroup>
+
+        <optgroup label="Team Oula">
+          <option value="option3">J'en ai marre</option>
+          <option value="option4">Pitié</option>
+        </optgroup>
+
+      </select> <br>
+      <input type="reset" id="reset">
+      <input type="submit" id="submit">
+    </fieldset>
+
+
+  </form>
+
+</body>
+
+</html>

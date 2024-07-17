@@ -1,0 +1,132 @@
+body{
+    background-color: black;
+}
+h1{
+    color: red;
+    transition-property: color;
+    transition-duration: 1s;
+    transition-timing-function: linear;
+    animation: superanimation 2s infinite
+  
+}
+
+@keyframes superanimation{
+    0%{
+        transform: translateY(-200px) ;
+    }
+}
+
+h1:hover{
+    color:green;
+}
+p{
+    color: aliceblue;
+}
+p:hover{
+    color:rgb(248, 248, 248);
+    animation: deplianimation 5s linear infinite;
+}
+
+@keyframes deplianimation {
+    0%{
+        width: 25px;
+        height:25px ;
+        color: aliceblue;
+        
+
+    }
+    50%{
+        width:50px ;
+        height:50px ;
+        color: antiquewhite;
+
+    }
+    75%{
+        width:75%;
+        height:75% ;
+        color: beige;
+
+    }
+
+    100%{
+        width: 100px;
+        height: 100px;
+        color: brown;
+    }
+}
+
+p:active{
+    transform: rotate(2turn);
+    transition-duration: 2s;
+    transition-timing-function: ease-in;
+   
+}
+
+div .button1{
+    animation: spoogy infinite alternate 0.2s;
+}
+
+@keyframes spoogy {
+    0%{
+        transform: rotate(0deg);
+    }
+
+    25%{
+        transform: rotate(10deg);
+    }
+
+    70%{
+        transform: rotate(-10deg);
+    }
+
+    100%{
+        transform: rotate(0deg);
+    }
+}
+
+div .button2{
+    animation: spoogy1 infinite alternate 0.2s;
+}
+
+@keyframes spoogy1 {
+    0%{
+        transform: translateY(0px);
+    }
+
+    25%{
+        transform: translateY(-2.5px);
+    }
+
+    50%{
+        transform: translateY(-5px);
+    }
+
+    75%{
+        transform: translateY(-7.5px);
+    }
+
+    100%{
+        transform:translateY(-10px) ;
+    }
+    
+}
+
+div .button3{
+    animation: spoogy2 infinite alternate linear 0.5s;
+}
+
+@keyframes spoogy2 {
+    0%{
+        transform: scale(1);
+    }
+
+    50%{
+        transform: scale(1.2);
+    }
+
+    100% {
+        transform: scale(1.3);
+    }
+    
+}
+

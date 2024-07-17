@@ -1,0 +1,48 @@
+.image1:hover{
+    transform: scale(2);
+  
+}
+
+.image1:active{
+    transform: rotate(0.50turn);
+}
+  
+body {
+    background-color: black;
+    color: white;
+    font-style: oblique;
+}
+.image1+p:hover{
+    animation: Groos 10s ease-in infinite;
+}
+
+@keyframes Groos {
+    0%{
+        transform: scale(1);
+        color:blue
+    }
+    50%{
+        transform:scale(0.5);
+        color: blueviolet;
+    }
+    100%{
+        transform: scale(0);
+        color: aliceblue;
+    }
+
+}
+ 
+.image2:hover{
+    transform: skewX(40deg);
+}
+
+.image2:active{
+    transform: translateX(200px);
+}
+
+.image2+p{
+    margin-top: 200px;
+transform: scale(0.5) rotate(35deg) skewY(10deg) translateY(20px);
+
+}
+    

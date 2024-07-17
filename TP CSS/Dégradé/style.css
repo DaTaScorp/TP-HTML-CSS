@@ -1,0 +1,59 @@
+.dégradé {
+    height: 200px;
+    width: 200px;
+    background-image:linear-gradient(to left bottom,red,green,blue);
+    margin: 20px;
+    border: solid 2px black;
+}
+
+.dégradé2 {
+    height: 200px;
+    width: 200px;
+    background-image: linear-gradient(to right bottom, hsla(300, 100%, 25%, 75) 75%, yellow);
+    margin:20px;
+    border: solid 2px black;
+}
+
+p {
+    height: 200px;
+    width: 200px;
+    background-image: linear-gradient(to bottom,white,rgba(0, 0, 0, 50%));
+    margin:20px;
+    border: solid 2px black;
+}
+
+.dégradé3 {
+    height: 200px;
+    width: 200px;
+    background-image: radial-gradient(circle,beige,black);
+    margin:20px;
+    border: solid 2px black ;
+}
+
+.dégradé4 {
+    height: 200px;
+    width: 200px;
+    margin:20px;
+    border: solid 2px black ;
+    border-image: linear-gradient(to right, #355c7d, #6c5b7b, #c06c84);
+    border-image-slice: 1;
+}
+
+.dégradé5{
+    height: 200px;
+    width: 200px;
+    margin: 20px;
+    border: solid 2px black;
+    background-image: repeating-radial-gradient(at center,black,white 10px);
+}
+
+.dégradé6{
+    height: 200px;
+    width: 200px;
+    margin: 20px;
+    border: solid 2px black;
+    background-image: radial-gradient(circle,rgba(0, 221, 255, 0.300)5%,pink 90%);
+}
+
+
+
